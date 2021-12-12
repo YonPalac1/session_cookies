@@ -1,0 +1,47 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+ 
+h1 {
+  font-family: arial;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+form label {
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+form input,
+form select,
+form button {
+  padding: 8px 10px;
+  border: 2px solid orange;
+}
+form button {
+  background: orange;
+  cursor: pointer;
+}
+form button:hover {
+  background: lightsalmon;
+  color:white;
+}
+a {
+  color: #00B7FF;
+  border: 2px #00B7FF solid;
+  padding: 10px 13px;
+}
+
+.datos {
+  width: 400px; 
+  margin: 200px auto;
+  text-align: center;
+  font-size: 20px;
+
+}
